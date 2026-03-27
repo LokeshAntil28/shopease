@@ -88,7 +88,7 @@
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/shopease.git
+git clone https://github.com/LokeshAntil28/shopease.git
 cd shopease
 ```
 
@@ -135,7 +135,7 @@ This is a frontend-only demo. To turn it into a full-stack app:
 
 1. Push to GitHub
 2. Repo → **Settings** → **Pages** → Source: **main / root**
-3. Live at: `https://YOUR_USERNAME.github.io/shopease`
+3. Live at: `https://LokeshAntil28.github.io/shopease`
 
 ---
 
@@ -148,4 +148,4 @@ This is a frontend-only demo. To turn it into a full-stack app:
 ## 👨‍💻 Author
 
 **Lokesh Kumar** · Sonipat, Haryana, India
-📧 17mr.antil@gmail.com · 🐙 [GitHub](https://github.com/YOUR_USERNAME)
+📧 17mr.antil@gmail.com · 🐙 [GitHub](https://github.com/LokeshAntil28)
