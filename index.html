@@ -227,11 +227,13 @@ function renderProducts() {
         <div class="product-price">₹${p.price.toLocaleString('en-IN')}</div>
         <div class="product-rating">${stars(p.rating)} · ${p.reviews} reviews</div>
         <button class="add-to-cart ${inCart?'added':''}" onclick="addToCart(${p.id})">
-          ${inCart ? '✓ Added' : '+ Add to Cart'}
+          ${inCart ? '✓ In cart' : '+ Add'}
         </button>
+
       </div>
     </div>`;
   }).join('');
+
 }
 
 function addToCart(id) {
@@ -276,9 +278,11 @@ function updateCartUI() {
         </div>
         <button class="remove-btn" onclick="removeFromCart(${c.id})">✕</button>
       </div>
+
     `).join('');
     const cartTotal = cart.reduce((s,c) => s + c.price * c.qty, 0);
     document.getElementById('cart-total').textContent = `₹${cartTotal.toLocaleString('en-IN')}`;
+
     footer.style.display = 'block';
   }
 }
